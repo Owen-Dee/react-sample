@@ -1,0 +1,10 @@
+{
+  "name": "finishes-upload",
+  "version": "0.0.2",
+  "pages": {
+      "index": {
+          "type": "static",
+          "entry": "entry.html"
+      }
+  }
+}

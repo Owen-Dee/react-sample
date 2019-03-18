@@ -1,0 +1,70 @@
+{
+  "rulesDirectory": [
+    "node_modules/tslint-microsoft-contrib",
+    "node_modules/@qunhe/tslint-rules"
+  ],
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "rules": {
+    // Compatitable rules from tslint@4 to @5
+    "space-before-function-paren": false,
+    "no-angle-bracket-type-assertion": false,
+    "callable-types": false,
+    "unified-signatures": false,
+    "no-string-throw": false,
+    "ban-types": false,
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "log",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-unnecessary-initializer": false,
+    "force-empty-line-after-jsx-annotation": true,
+    "jsx-alignment": false,
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "jsx-no-string-ref": false,
+    "jsx-self-close": false,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "member-access": false,
+    "arrow-parens": false,
+    "interface-name": [
+      false,
+      "never-prefix"
+    ],
+    "object-literal-sort-keys": false,
+    "member-ordering": [
+      false
+    ],
+    "variable-name": false,
+    "no-var-requires": false,
+    "max-classes-per-file": false,
+    "only-arrow-functions": [
+      false
+    ],
+    "no-reference": false,
+    "trailing-comma": [
+      false
+    ],
+    "prefer-const": true,
+    "no-namespace": [
+      true,
+      "allow-declarations"
+    ]
+  }
+}
